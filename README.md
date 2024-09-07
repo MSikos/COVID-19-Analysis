@@ -7,23 +7,25 @@ The analyses in this project were performed using real-world data on COVID-19 de
 
 # **Repository Structure**
 *  01 Project Management: Contains the project brief which outlines the objectives and expectations of the analysis.
-02 Data: Contains a PDF file with links to the datasets and files used in the analysis.
-03 Scripts: Includes all Python scripts used in the data analysis, structured in Jupyter Notebooks.
-04 Analysis/Visualizations: Contains image files of the visualizations generated during the analysis.
-05 Final Report: Includes the Tableau Public storyboard as a PDF file, available to view on Tableau Public here.
-Key Questions Addressed
-Which conditions are most strongly associated with COVID-19 deaths?
-How do COVID-19 death rates vary across different states and age groups?
-What are the geographical patterns in COVID-19 death rates and contributing conditions across the United States?
-How can linear regression and clustering analyses be used to predict and understand COVID-19 mortality?
-What are the temporal trends and seasonal patterns in COVID-19 deaths and contributing conditions?
-Tools Used
-Python: Primary programming language used for data analysis.
-Pandas: For data manipulation and analysis.
-NumPy: For numerical operations.
-Matplotlib & Seaborn: For generating data visualizations.
-Scikit-learn: For implementing machine learning models.
-Statsmodels: For time series analysis and ARIMA modeling.
-Geopandas: For geographical data manipulation and visualization.
-Plotly: For interactive visualizations.
-Tableau Public: For creating interactive visualizations and dashboards.
+*  02 Data: Contains a PDF file with links to the datasets and files used in the analysis.
+*  03 Scripts: Includes all Python scripts used in the data analysis, structured in Jupyter Notebooks.
+*  04 Analysis/Visualizations: Contains image files of the visualizations generated during the analysis.
+*  05 Final Report: Includes the Tableau Public storyboard as a PDF file, available to view on Tableau Public here.
+
+# **Key Questions Addressed**
+*  Which conditions are most strongly associated with COVID-19 deaths?
+*  How do COVID-19 death rates vary across different states and age groups?
+*  What are the geographical patterns in COVID-19 death rates and contributing conditions across the United States?
+*  How can linear regression and clustering analyses be used to predict and understand COVID-19 mortality?
+*  What are the temporal trends and seasonal patterns in COVID-19 deaths and contributing conditions?
+
+# **Tools Used**
+* Python: Primary programming language used for data analysis.
+* Pandas: For data manipulation and analysis.
+* NumPy: For numerical operations.
+* Matplotlib & Seaborn: For generating data visualizations.
+* Scikit-learn: For implementing machine learning models.
+* Statsmodels: For time series analysis and ARIMA modeling.
+* Geopandas: For geographical data manipulation and visualization.
+* Plotly: For interactive visualizations.
+* Tableau Public: For creating interactive visualizations and dashboards.
