@@ -29,3 +29,43 @@ The analyses in this project were performed using real-world data on COVID-19 de
 * Geopandas: For geographical data manipulation and visualization.
 * Plotly: For interactive visualizations.
 * Tableau Public: For creating interactive visualizations and dashboards.
+
+# **Visualizations**
+This project includes multiple different types of visualizations including: scatter plots, choropleth maps, bar charts, and time-series plots. These visualizations are used to highlight how different short-term and chronic medical conditions, geographic and regional variations, and temporal trends impact COVID-19 mortality.
+
+# **Analyses Performed**
+## Initial Data Exploration
+*  Exploration of the dataset: Understanding the structure and key statistics.
+*  Cleaning and preprocessing: Handling missing values, outliers, and data type conversions.
+
+## Geographical Analysis
+*  Choropleth maps: Visualizing total COVID-19 deaths and death rates per 100,000 population across states.
+*  Insights: Identifying high-impact states, regions and patterns.
+
+## Linear Regression Analysis
+*  Model Building: Developing a regression model to predict COVID-19 deaths based on the number of mentions of medical conditions.
+*  Performance Evaluation: Assessing the model using Mean Squared Error (MSE) and R-squared score.
+
+## Cluster Analysis
+*  K-means clustering: Identified clusters of states with similar COVID-19 impact.
+*  Cluster Interpretation: Analyzing the characteristics and severity of each cluster.
+
+## Time Series Analysis
+*  Trend and Seasonality: Decomposing time series data to identify trends and seasonal patterns.
+*  Stationarity Check: Performing the Dickey-Fuller test to check for stationarity and performing differencing to achieve stationarity.
+*  Autocorrelation Analysis: Using Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) plots to analyze the autocorrelation structure of the time series data.
+
+## Conclusion and Recommendations
+These analyses provided a deeper understanding of the factors that contribute to COVID-19 death rates while also emphasizing the the importance of demographic, geographic, and condition-specific factors. The findings can be used to create targeted interventions and direct allocation of resources to where it is needed most during future health crises.
+
+## **Limitations and Potential Biases**
+*  Provisional Nature of Data: Data is provisional and conclusions may need to be revised when the finalized data becomes available.
+*  Reporting Delays: Delays in reporting can affect the accuracy and completeness of more recent data.
+*  Inconsistent Reporting Standards: Variability in state-level reporting standards may impact reliability.
+*  Multiple Conditions: Presence of multiple conditions listed on official death certificates can complicate our analyses.
+*  Double Counting Risk: Deaths involving multiple medical conditions are counted in each relevant category increasing the risk of overcounting.
+*  Population Data: Population data is from the 2020 census, which may not reflect changes over time.
+
+## **Recommendations for Future Work**
+*  Enhanced Clustering: Perform clustering analyses on additional conditions and demographics.
+*  Predictive Modeling: Develop models to identify high-risk populations and enhance public health strategies.
