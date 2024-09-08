@@ -10,7 +10,7 @@ The analyses in this project were performed using real-world data on COVID-19 de
 *  02 Data: Contains a PDF file with links to the datasets and files used in the analysis.
 *  03 Scripts: Includes all Python scripts used in the data analysis, structured in Jupyter Notebooks.
 *  04 Analysis/Visualizations: Contains image files of the visualizations generated during the analysis.
-*  05 Final Report: Includes the Tableau Public storyboard as a PDF file, available to view on Tableau Public [here] (https://public.tableau.com/views/MSikosAchievement6Exercise6_7/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+*  05 Final Report: Includes the Tableau Public storyboard as a PDF file, available to view on Tableau Public [here] <https://public.tableau.com/views/MSikosAchievement6Exercise6_7/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link>.
 
 # **Key Questions Addressed**
 *  Which conditions are most strongly associated with COVID-19 deaths?
